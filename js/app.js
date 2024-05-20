@@ -36,10 +36,9 @@ function selectedBook(book) {
 
 ui.sort.addEventListener("change",(e) => {
     const key = e.target.value;
-    console.log(key)
     switch (key) {
         case "1":
-            Request.get("http://localhost:3000/books?_sort=name","")
+            Request.get("http://localhost:3000/books?_sort=","name")
                 .then(data => ui.displayBooks(data));
         break;
         case "2":
@@ -50,5 +49,39 @@ ui.sort.addEventListener("change",(e) => {
             Request.get("http://localhost:3000/books?_sort=","date")
                 .then(data => ui.displayBooks(data));
         break;
+    }
+})
+
+ui.searchName.addEventListener("input",(e) => {
+    let key = e.target.value;
+    Request.get("http://localhost:3000/books?name_like=",key)
+        .then(data => ui.displayBooks(data));
+})
+
+ui.searchAuthor.addEventListener("input",(e) => {
+    let key = e.target.value;
+    Request.get("http://localhost:3000/books?author_like=",key)
+        .then(data => ui.displayBooks(data));
+})
+
+ui.searchCategory.addEventListener("change",(e) => {
+    const key = e.target.value;
+    switch (key) {
+        case "Novel":
+            Request.get("http://localhost:3000/books?category=","Novel")
+                .then(data => ui.displayBooks(data));
+        break;
+        case "Historical":
+            Request.get("http://localhost:3000/books?category=","Historical")
+                .then(data => ui.displayBooks(data));
+        break;
+        case "Religious":
+            Request.get("http://localhost:3000/books?category=","Religious")
+                .then(data => ui.displayBooks(data));
+        break;
+        default:
+            Request.get("http://localhost:3000/books","")
+                .then(data => ui.displayBooks(data));
+                break;
     }
 })

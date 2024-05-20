@@ -4,7 +4,7 @@
       "id": "e1466575-6366-414e-8614-ae29c4144794",
       "name": "Anna Karenina",
       "author": "Lev Nikolayeviç Tolstoy",
-      "category": "1",
+      "category": "Novel",
       "date": "1878",
       "imgUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0000000374848-1.jpg"
     },
@@ -12,7 +12,7 @@
       "id": "ad0f0e9f-f92c-4367-ba35-41548bc38f86",
       "name": "Harry Potter ve Felsefe Taşı",
       "author": "J. K. Rowling",
-      "category": "1",
+      "category": "Novel",
       "date": "1999",
       "imgUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0000000105599-1.jpg"
     },
@@ -20,7 +20,7 @@
       "id": "4d3c5589-e476-4f4b-a7c9-c08c76f4950e",
       "name": "Nutuk",
       "author": "Mustafa Kemal Atatürk",
-      "category": "2",
+      "category": "Historical",
       "date": "1927",
       "imgUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0000000325204-1.jpg"
     },
@@ -28,7 +28,7 @@
       "id": "0a99bc86-db95-4820-a118-59748930db2a",
       "name": "Cumhuriyet'in Doğuşu - Kurtuluş ve Kuruluş Yılları",
       "author": "İlber ORTAYLI",
-      "category": "2",
+      "category": "Historical",
       "date": "2023",
       "imgUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0002082664001-1.jpg"
     },
@@ -36,7 +36,7 @@
       "id": "be5d0119-a51b-4f14-a2c9-c1663073d469",
       "name": "İmparatorluktan Cumhuriyete",
       "author": "Halil İnalcık",
-      "category": "2",
+      "category": "Historical",
       "date": "1995",
       "imgUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0001788681001-1.jpg"
     },
@@ -44,7 +44,7 @@
       "id": "4f81dcba-6c8b-4d57-8c87-59b05fa03253",
       "name": "Tanrı Yanılgısı",
       "author": "Richard Dawkins",
-      "category": "3",
+      "category": "Religious",
       "date": "2006",
       "imgUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0000000417529-1.jpg"
     },
@@ -52,7 +52,7 @@
       "id": "dd1e86ed-bc0f-42ba-b220-0e407aa1d193",
       "name": "God Is Not Great: How Religion Poisons Everything",
       "author": "Christopher Hitchens",
-      "category": "3",
+      "category": "Religious",
       "date": "2007",
       "imgUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0000000303913-1.jpg"
     },
@@ -60,7 +60,7 @@
       "id": "3ef133ae-848d-4017-bab3-d457b7d472b1",
       "name": "The End of Faith: Religion, Terror, and the Future of Reason",
       "author": "Sam Harris",
-      "category": "3",
+      "category": "Religious",
       "date": "2004",
       "imgUrl": "https://cdn.kobo.com/book-images/Images/abcd581a-5caa-4952-b964-834f17f5d497/255/400/False/image.jpg"
     },
@@ -68,7 +68,7 @@
       "id": "29b21253-8ca6-4565-9882-18cc92a7d01f",
       "name": "Şu Çılgın Türkler",
       "author": "Turgut Özakman",
-      "category": "1",
+      "category": "Novel",
       "date": "2005",
       "imgUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0000000177540-1.jpg"
     },
@@ -76,7 +76,7 @@
       "id": "fd53840b-a989-40a5-baa2-5810e783c1bc",
       "name": "Ütopya",
       "author": "Thomas Moore",
-      "category": "1",
+      "category": "Novel",
       "date": "1516",
       "imgUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0002026787001-1.jpg"
     }

@@ -1,7 +1,6 @@
 class Request{
     static async get(url,sort){
         const response = await fetch(url + sort);
-        console.log(url + sort)
         const data = await response.json();
         return data;
     }
@@ -13,11 +12,9 @@ class Request{
               "Content-type": "application/json;",
             }
         });
-        const response2 = await response.json();
-        console.log(response2);
     }
     static async put(url,data,id){
-        const response = fetch(url + "/" + id, {
+        const response = await fetch(url + "/" + id, {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {

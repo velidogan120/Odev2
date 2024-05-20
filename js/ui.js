@@ -11,6 +11,9 @@ class UI {
         this.bookAdd = document.querySelector("#bookAdd");
         this.bookAddBtn = document.querySelector("#bookAddBtn");
         this.sort = document.querySelector("#sort");
+        this.searchName = document.querySelector("#searchName");
+        this.searchAuthor = document.querySelector("#searchAuthor");
+        this.searchCategory = document.querySelector("#searchCategory");
     }
 
     displayBooks(books){

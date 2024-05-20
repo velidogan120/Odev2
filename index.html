@@ -30,7 +30,10 @@
             Add Book
         </button>
         <div class="my-3">
-            <input type="text" class="form-control" placeholder="Search Author or Category :">
+            <input id="searchName" type="text" class="form-control" placeholder="Search Name:">
+        </div>
+        <div class="my-3">
+            <input id="searchAuthor" type="text" class="form-control" placeholder="Search Author:">
         </div>
         <div class="my-3">
             <select id="sort" class="form-select">
@@ -38,6 +41,14 @@
                 <option value="1">A-Z</option>
                 <option value="2">Z-A</option>
                 <option value="3">Date</option>
+            </select>
+        </div>
+        <div class="my-3">
+            <select id="searchCategory" class="form-select">
+                <option selected value="">Search Category</option>
+                <option value="Novel">Novel</option>
+                <option value="Historical">Historical</option>
+                <option value="Religious">Religious</option>
             </select>
         </div>
         <div class="modal fade" id="bookAdd" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
@@ -94,9 +105,9 @@
                                     <label for="category" class="form-label">Category :</label>
                                     <select id="category" class="form-select" required>
                                         <option selected disabled value="">Choose...</option>
-                                        <option value="1">Novel</option>
-                                        <option value="2">Historical</option>
-                                        <option value="3">Religious</option>
+                                        <option value="Novel">Novel</option>
+                                        <option value="Historical">Historical</option>
+                                        <option value="Religious">Religious</option>
                                     </select>
                                     <div class="valid-feedback">
                                         Perfect !
