@@ -49,6 +49,10 @@ ui.sort.addEventListener("change",(e) => {
             Request.get("http://localhost:3000/books?_sort=","date")
                 .then(data => ui.displayBooks(data));
         break;
+        default:
+            Request.get("http://localhost:3000/books","")
+                .then(data => ui.displayBooks(data));
+        break;
     }
 })
 
@@ -82,6 +86,6 @@ ui.searchCategory.addEventListener("change",(e) => {
         default:
             Request.get("http://localhost:3000/books","")
                 .then(data => ui.displayBooks(data));
-                break;
+        break;
     }
 })
