@@ -20,7 +20,7 @@ class UI {
         this.listBooks.textContent = "";
         books.forEach((book) => {
             book = `
-                <div id=${book.id} class="col-3 my-2">
+                <div id=${book.id} class="col my-2">
                     <div class="card">
                         <div class="position-relative text-center">
                             <img src="${book.imgUrl}">
