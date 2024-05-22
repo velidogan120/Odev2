@@ -1,6 +1,7 @@
 # First Step
 
-Install Dependecies (node-modules) : npm i 
+Install Dependecies (node-modules) : 
+&nbsp;&nbsp;npm i 
 
 # Second Step
 
@@ -11,4 +12,5 @@ npm run start-server or npx json-server db/db.json
 
 If you want special css template, you must use scss script and write on the scss/_custom.scss.
 After run the folder because we have to translate scss codes.
-scss to css : npm run sass 
+scss to css : 
+&nbsp;&nbsp;npm run sass 
