@@ -10,9 +10,10 @@ window.addEventListener("load",() => {
 ui.bookForm.addEventListener("submit",async (e) => {
     if(!editStatus){
         const book = await new Book(crypto.randomUUID(),ui.bookName.value,ui.author.value,ui.category.value,ui.date.value,ui.imgUrl.value);
-        Request.post("http://localhost:3000/books",book)
+        Request.post("http://localhost:3000/books",book);
     }else{
         const editBook = await new Book(editId,ui.bookName.value,ui.author.value,ui.category.value,ui.date.value,ui.imgUrl.value);
+        console.log(editBook)
         Request.put("http://localhost:3000/books",editBook,editId);
         ui.bookForm.querySelector("button").textContent = "Submit";
     }
