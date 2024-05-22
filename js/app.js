@@ -3,11 +3,11 @@ let editId;
 let editStatus = false;
 
 window.addEventListener("load",() => {
-    Request.get("http://localhost:3000/books","")
+    Request.get("http://localhost:3000/books"," ")
         .then(data => ui.displayBooks(data));
 })
 
-ui.bookForm.addEventListener("submit",async () => {
+ui.bookForm.addEventListener("submit",async (e) => {
     if(!editStatus){
         const book = await new Book(crypto.randomUUID(),ui.bookName.value,ui.author.value,ui.category.value,ui.date.value,ui.imgUrl.value);
         Request.post("http://localhost:3000/books",book)
