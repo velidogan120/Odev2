@@ -9,7 +9,7 @@ We have to install json-server 0.17.4 version
 >Odev2\app> npm install json-server@0.17.4 or npm install -g json-server@0.17.4
 
 We have to run localhost:3000 , for bring db.json
->Odev2\app> npm run start-server or npx json-server ../db/db.json
+>Odev2\app> npm run start-server or npx json-server db/db.json
 
 # Third Step
 
