@@ -1,12 +1,12 @@
 # First Step
 
 Install Dependecies (node-modules) : 
->npm i 
+>Odev2\app> npm i 
 
 # Second Step
 
 We have to install json-server 0.17.4 version
->npm install json-server@0.17.4
+>Odev2\app> npm install json-server@0.17.4 or npm install -g json-server@0.17.4
 
 We have to run localhost:3000 , for bring db.json
 >Odev2\app> npm run start-server or npx json-server ../db/db.json
@@ -17,4 +17,4 @@ If you want special css template, you must use scss script and write on the scss
 
 After run the folder because we have to translate scss codes.
 scss to css :
->npm run sass 
+>Odev2\app> npm run sass 
